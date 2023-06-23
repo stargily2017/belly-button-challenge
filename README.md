@@ -5,7 +5,7 @@ Use the D3 library to read in samples.json from the URL https://2u-data-curricul
 when we start doing code,
 //read the data with url
 //pull up the three datas like: sample, name, metadata
-let or var can use it.
+//let or var can use it.
 <img width="433" alt="image" src="https://github.com/stargily2017/belly-button-challenge/assets/117419179/d79248f2-6a79-4f5e-9245-da14e0ea56c1">
 
 //set a variable for sample. and filter the initial sample.
