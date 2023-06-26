@@ -41,5 +41,7 @@ Display the sample metadata, i.e., an individual's demographic information.
 
 Display each key-value pair from the metadata JSON object somewhere on the page.
 
+this is the link for the final result
 
+http://localhost:52330/Starter_Code%2014/StarterCode/index.html
 
