@@ -43,6 +43,7 @@ init();
 
 <img width="947" alt="image" src="https://github.com/stargily2017/belly-button-challenge/assets/117419179/1117af27-2501-474f-bb40-808721a112b0">
 
+|filter each sample in function ( bar chart , bubble diagram , metadata ): .filter(x => x.id == sample);
 
 this is the link for the final result
 
