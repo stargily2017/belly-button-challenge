@@ -1,45 +1,47 @@
 # belly-button-challenge
-I built an interactive dashboard to explore the Belly Button Biodiversity dataset links to an external site., which catalogs the microbes that colonize human navels.
-Use the D3 library to read in samples.json from the URL https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json.
 
-when we start doing code,
-//read the data with url
-//pull up the three datas like: sample, name, metadata
-//let or var can use it.
-<img width="433" alt="image" src="https://github.com/stargily2017/belly-button-challenge/assets/117419179/d79248f2-6a79-4f5e-9245-da14e0ea56c1">
+![image](https://github.com/stargily2017/belly-button-challenge/assets/117419179/4b66e290-f045-4b72-957a-a93a84387078)
 
-//set a variable for sample. and filter the initial sample.
-once we get the data, we can see, otu_id,sample_values, out_labels.Then follow the code for bar chart and bubble diagram.
+//Description:
+The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
 
-Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
-
-Use sample_values as the values for the bar chart.
-
-Use otu_ids as the labels for the bar chart.
-
-Use otu_labels as the hovertext for the chart.
-![bar_chart](https://github.com/stargily2017/belly-button-challenge/assets/117419179/d4fdcd06-aa53-4ca5-8928-3b78f12ddd1a)
+Demographic information is based on the user-selected test subject ID, for example, the initial ID is 940. A bar chart, bubble chart, and bonus gauge chart also update once the ID is changed. I didn't mention here the gauge chart. Code has been written using Plotly, JavaScript, HTML, CSS, and D3.js.
 
 
+Plotly:
 
-Create a bubble chart that displays each sample.
+|Draw a bar chart and bubble chart displaying each individual's samplesto retrieve the demographic information for each samples. 
 
-Use otu_ids for the x values.
+|Read in samples.json using the D3 library
 
-Use sample_values for the y values.
+|Retrieve metadata info for each test subject and display this in the form of an unordered list item as a key-value pair on the dashboard.
 
-Use sample_values for the marker size.
+|Get required data for plotting, including sample_values, otu_ids and otu_labels which were used to create  and plot the bar chart.
 
-Use otu_ids for the marker colors.
+|Only plot the top 10 in individual values, arrays were sliced ( .slice(0, 10).map(otu_ID => `OTU ${otu_ID}`).reverse())and reversed to display the chart as below.
 
-Use otu_labels for the text values.
+![image](https://github.com/stargily2017/belly-button-challenge/assets/117419179/4812af4b-89f3-4af3-8efa-a6fbb07e38a3)
 
-Bubble Chart
-![bubble_chart](https://github.com/stargily2017/belly-button-challenge/assets/117419179/f0886e95-b755-45ed-a8e8-cc65cabbd8ca)
 
-Display the sample metadata, i.e., an individual's demographic information.
+The entire sample arrays were used to plot a bubble chart.
 
-Display each key-value pair from the metadata JSON object somewhere on the page.
+![image](https://github.com/stargily2017/belly-button-challenge/assets/117419179/6dd10fa8-7d47-4700-951a-7903007261ba)
+
+
+OUTLINE:
+
+| function init() calls the resetData() function, populates the dropdown menu with test subject IDs from the dataset and displays data of the first subject as a starting point.
+
+ names.forEach((id) => {
+
+    dropDown.append("option")
+          .text(id)
+          .property("value",id);
+      });
+init();
+| function optionChanged() use recall all the data to the dropdown menu(on change), and select any of the samples(new ID) for example, need to get the data 950, in the drop-down menu select 950, can see the changes.we can see the changes in the barchart and bubble diagram for each sample.
+
+<img width="807" alt="image" src="https://github.com/stargily2017/belly-button-challenge/assets/117419179/e241dab7-592e-4f9d-a851-f544bc2285bb">
 
 this is the link for the final result
 
