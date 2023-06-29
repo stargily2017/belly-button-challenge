@@ -6,7 +6,7 @@
 The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
 
 Demographic information is based on the user-selected test subject ID, for example, the initial ID is 940. A bar chart, bubble chart, and bonus gauge chart also update once the ID is changed. I didn't mention here the gauge chart. Code has been written using Plotly, JavaScript, HTML, CSS, and D3.js.
-
+static shows images, app.js, index.html, samples.json
 
 Plotly:
 
@@ -39,9 +39,10 @@ OUTLINE:
           .property("value",id);
       });
 init();
-| function optionChanged() use recall all the data to the dropdown menu(on change), and select any of the samples(new ID) for example, need to get the data 950, in the drop-down menu select 950, can see the changes.we can see the changes in the barchart and bubble diagram for each sample.
+| function optionChanged() use recall all the data to the dropdown menu(on change), and select any of the samples(new ID) for example, need to get the data 948, in the drop-down menu select 950, can see the changes.we can see the changes in the barchart and bubble diagram for each sample.
 
-<img width="807" alt="image" src="https://github.com/stargily2017/belly-button-challenge/assets/117419179/e241dab7-592e-4f9d-a851-f544bc2285bb">
+<img width="947" alt="image" src="https://github.com/stargily2017/belly-button-challenge/assets/117419179/1117af27-2501-474f-bb40-808721a112b0">
+
 
 this is the link for the final result
 
