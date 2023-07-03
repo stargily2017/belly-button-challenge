@@ -45,7 +45,7 @@ init();
 
 |filter each sample in function ( bar chart , bubble diagram , metadata ): .filter(x => x.id == sample);
 
-this is the link for the final result
+
 
 
 
