@@ -47,5 +47,5 @@ init();
 
 this is the link for the final result
 
-http://localhost:52330/Starter_Code%2014/StarterCode/index.html
+http://localhost:52330/StarterCode/index.html
 
