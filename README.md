@@ -3,6 +3,7 @@
 ![image](https://github.com/stargily2017/belly-button-challenge/assets/117419179/4b66e290-f045-4b72-957a-a93a84387078)
 
 //Description:
+To explore the Belly Button Biodiversity datasetLinks to an external site., which catalogs the microbes that colonize human navels.
 The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
 
 Demographic information is based on the user-selected test subject ID, for example, the initial ID is 940. A bar chart, bubble chart, and bonus gauge chart also update once the ID is changed. I didn't mention here the gauge chart. Code has been written using Plotly, JavaScript, HTML, CSS, and D3.js.
