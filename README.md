@@ -45,7 +45,8 @@ init();
 
 |filter each sample in function ( bar chart , bubble diagram , metadata ): .filter(x => x.id == sample);
 
+final result:
 
-
+http://localhost:52330/StarterCode/index.html
 
 
