@@ -47,6 +47,6 @@ init();
 
 final result:
 
-http://localhost:52330/Starter_Code%20(12)/StarterCode/index.html
+
 
 
